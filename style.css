@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+}
+span{
+    color: rgb(228, 19, 19);
+}
+
+
+
+.navbar-brand:hover{
+    color: rgb(243, 16, 16);
+
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: rgb(219, 29, 29);
+    text-transform: uppercase;
+    font-family: "Rubik", serif;
+}
+.nav-link:hover{
+    color: rgb(167, 8, 8);
+}
+.search{
+ height: 40px;
+width: 80%;
+border-radius: 60px;
+outline: none;
+font-family: "Rubik", serif;
+margin-right: -35px;
+border: 2px solid rgb(247, 111, 111);
+
+}
+.btn0{
+height: 40px;
+width: 40%;
+outline: none;
+border: none;
+background: rgb(238, 45, 45);
+border-radius: 60px;
+color: white;
+font-weight: 700;
+
+
+}
+.main{
+    background: url(/tomato/doctor.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    Background-position: 50% 50%;
+    width: 100%;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background: rgb(238, 45, 45);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.container img{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+}
+.btn1:hover{
+    background: rgb(247, 111, 111);
+    transition: 0.5s;
+}
+    
+h1{
+    font-weight: 700;
+}
+.card:hover{
+
+    box-shadow: 13px -44px 38px 74px rgba(0,0,0,0.1),47px 51px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);; 
+    transition: 0.5s;
+}
+
+    
+
